@@ -1,0 +1,213 @@
+html, body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background-color: #dddddd;
+}
+
+.logintable input
+{
+	width: 300px;
+	padding: 5px;
+}
+
+* {
+    scrollbar-face-color: #ffffff;
+    scrollbar-highlight-color: #000000;
+    scrollbar-shadow-color: #ffffff;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-arrow-color: #000000;
+    scrollbar-track-color: #808080;
+    scrollbar-darkshadow-color: #000000;
+}
+
+.wrap1
+{
+	height: 50%;
+	text-align: center;
+}
+
+.mob_container
+{
+	display: inline-block;
+	margin: 0px auto;
+	width: 99%;
+	height: 89%;
+	padding: 5px;
+	txet-align: left;
+	font-size: 15px;
+}
+
+.chatContainer
+{
+	width: 100%;
+	height: 100%;
+	text-align: left;
+}
+
+.mob_messages, .mob_private
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+	height: 100%;
+	border: 1px solid #ffffff;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-family: Tahoma, Arial;
+	text-align: center;
+}
+
+.mob_private
+{
+	display: none;
+}
+
+.mob_message
+{
+	display: inline-block;
+	width: 100%;
+	margin: 0px auto 3px auto;
+	padding: 0.5% 1%;
+	background-color: #cccccc;
+	text-align: left;
+	font-size: 0px;
+}
+
+.mob_message:last-child
+{
+	margin-bottom: 0px;
+}
+
+.mob_message > .nick
+{
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+	font-family: Tahoma, Arial;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 12px;
+}
+
+.mob_message > .text
+{
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+	text-indent: 10px;
+	font-size: 11px;
+}
+
+.mob_tabs
+{
+	display: inline-block;
+	margin: 0px auto;
+	width: 99%;
+	padding: 5px 5px 0px 5px;
+	background-color: #dddddd;
+	txet-align: left;
+	font-size: 15px;
+	text-align: left;
+}
+
+.mob_tabs > .tab
+{
+	width: 10%;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+	display: inline-block;
+	margin: 0px 2px 0px 0px;
+	text-align: center;
+	border: 1px solid #ffffff;
+	font-family: Tahoma, Arial;
+	white-space: nowrap;
+	font-size: 12px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.mob_tabs > .tab:hover
+{
+	background-color: #cccccc;
+}
+
+.users
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 19%;
+	height: 100%;
+	border: 1px solid #ffffff;
+	float: right;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.users > .user
+{
+	width: 100%;
+	padding: 2.5px 2px;
+	margin-bottom: 2px;
+	text-align: center;
+	font-family: Tahoma, Arial;
+	cursor: pointer;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 12px;
+}
+
+.users > .user:hover
+{
+	background-color: #000000 !important;
+	color: #ffffff !important;
+}
+
+.users > .action
+{
+	width: 100%;
+	padding: 2.5px 2px;
+	margin-bottom: 2px;
+	text-align: center;
+	font-family: Tahoma, Arial;
+	cursor: pointer;
+	overflow: hidden;
+	background-color: #cccccc;
+	font-size: 12px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+.users > .action:hover
+{
+	background-color: #bbbbbb;
+}
+
+.sendMessage
+{
+	display: inline-block;
+	margin: 0px auto;
+	width: 99%;
+	padding: 5px;
+	background-color: #dddddd;
+	txet-align: left;
+	font-size: 15px;
+}
+
+#message_body
+{
+	width: 77%;
+	padding: 1% 1%;
+	float: left;
+}
+
+#sendPress
+{
+	display: inline-block;
+	width: 19%;
+	#height: 100%;
+	float: right;
+	margin-right: 3px;
+	padding: 1% 1%;
+}
